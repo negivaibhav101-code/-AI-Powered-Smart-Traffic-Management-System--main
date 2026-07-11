@@ -15,7 +15,7 @@ The system is suitable for videos captured from typical 4-legged intersections a
 
 ## Features
 
-- Real-time vehicle detection using **YOLOv8**.
+- Real-time vehicle detection using **YOLOv11**.
 - **Multi-object tracking** with unique IDs and motion trails.
 - **Automatic ROI generation** for North (N), South (S), East (E), West (W), and CENTER regions.
 - **Max-Pressure controller** for optimal traffic flow:
