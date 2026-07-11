@@ -1,7 +1,7 @@
 
 # Smart Traffic Signal Control System 🚦
 
-A Python-based traffic signal decision-making system leveraging **YOLOv8 vehicle detection**, **multi-object tracking**, and a **Max-Pressure controller** with spillback handling and emergency preemption. Designed for CCTV or drone surveillance video feeds.
+A Python-based traffic signal decision-making system leveraging **YOLOv26 vehicle detection**, **multi-object tracking**, and a **Max-Pressure controller** with spillback handling and emergency preemption. Designed for CCTV or drone surveillance video feeds.
 
 ---
 
@@ -15,7 +15,7 @@ The system is suitable for videos captured from typical 4-legged intersections a
 
 ## Features
 
-- Real-time vehicle detection using **YOLOv11**.
+- Real-time vehicle detection using **v26**.
 - **Multi-object tracking** with unique IDs and motion trails.
 - **Automatic ROI generation** for North (N), South (S), East (E), West (W), and CENTER regions.
 - **Max-Pressure controller** for optimal traffic flow:
@@ -37,7 +37,7 @@ The system is suitable for videos captured from typical 4-legged intersections a
 
 ### Vehicle Detection
 
-- Utilizes **YOLOv8** for detecting vehicles such as cars, trucks, buses, motorcycles, and bicycles.
+- Utilizes **YOLOv26** for detecting vehicles such as cars, trucks, buses, motorcycles, and bicycles.
 - Configurable confidence threshold and input image size.
 - Works on both CPU and GPU (`cuda`, `mps`) devices.
 ![WhatsApp Image 2025-09-09 at 13 14 03_bbb6c824](https://github.com/user-attachments/assets/eecde89c-e063-4478-924a-035085140206)
@@ -84,9 +84,6 @@ The system is suitable for videos captured from typical 4-legged intersections a
 
 
 
-# AI-Powered Smart Traffic Management System 🚦
-
-A production-grade traffic signal decision-making pipeline leveraging **YOLOv8**, multi-object tracking, and a mathematical **Max-Pressure controller**. Designed to replace legacy fixed-time phasing models with adaptive, real-time, queue-length-driven scheduling policies.
 
 ## Engineering Highlights
 
